@@ -23,6 +23,8 @@ public class CustomerController {
     }
     @PostMapping("/customer")
     public ResponseEntity addCustomer(@RequestBody CustomerDto customerDto){
+
+        //hello world i'm abid
         Customer customer=customerService.addCustomer(customerDto);
 
         URI location=ServletUriComponentsBuilder
