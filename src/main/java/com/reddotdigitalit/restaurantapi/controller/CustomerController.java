@@ -25,6 +25,8 @@ public class CustomerController {
     public ResponseEntity addCustomer(@RequestBody CustomerDto customerDto){
 
         //hello world i'm abid
+        //master changed from github
+        
         Customer customer=customerService.addCustomer(customerDto);
 
         URI location=ServletUriComponentsBuilder
